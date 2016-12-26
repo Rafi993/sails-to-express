@@ -15,8 +15,8 @@ let config = {
   connections: {
     mongodb: {
       adapter: 'mongodb',
-      host: 'mongoUrl',
-      port: 000,
+      host: 'dburl',
+      port: 1000,
       user: 'user', //optional
       password: 'password', //optional
       database: 'dbname' //optional

@@ -18,6 +18,7 @@ module.exports = (app) => {
         )
       ))
     app.set('controller', defaultRoots)
+    console.log(defaultRoots)
   }
 
 }

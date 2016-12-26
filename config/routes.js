@@ -7,7 +7,7 @@ module.exports = (app) => {
 
 
       defaultRoutes = app.get('controller');
-      app.get('/home', Index.home);
+      app.get('/', Index.home);
 
       // suffix by Controller to make it post by default
 
