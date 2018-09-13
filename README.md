@@ -3,15 +3,16 @@
 ### To use it
 
 ```
-git clone https://github.com/Rafi993/sails-to-express.git 
+git clone https://github.com/Rafi993/sails-to-express.git
 cd sails-to-express
 npm install
-npm run dev 
+npm run dev
 ```
 
 ###Folder structure
+
 ```
-App 
+App
 -api
   -controllers
   -models
@@ -25,12 +26,10 @@ App
   -globals.js
   -middleware.js
   -policies.js
-  -routes.js  
+  -routes.js
 -app.js
 -package.json
-
+```
 
 ####NOTE:
 The toLowercase() is used so all routes are small case by default
-
-
