@@ -1,4 +1,4 @@
-let app = require('express')(),
+const app = require('express')(),
       connect = require('connect'),
       bodyParser = require('body-parser'),
       cors = require('cors'),
